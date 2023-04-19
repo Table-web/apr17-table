@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+p {
+  color: grey;
+}
+.container {
+  position: relative;
+  width: 2000 px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.container .box {
+  position: relative;
+  width: calc(300px - 30px);
+  height: calc(100px - 30px);
+  background: white;
+  border: grey 1px;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.container .box .content {
+  position: absolute;
+}
