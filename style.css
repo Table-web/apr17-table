@@ -1,4 +1,40 @@
 body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+p {
+  color: grey;
+}
+.container {
+  position: relative;
+  width: 2000 px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.container .box {
+  position: relative;
+  width: calc(300px - 30px);
+  height: calc(100px - 30px);
+  background: white;
+  border: grey 1px;
+  float: left;
+  margin: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.container .box .content {
+  position: absolute;
+}
+
+/* --------------teddy---------------- */
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
     Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
@@ -15,7 +51,11 @@ body {
 
 .coinHead {
   height: 40px;
+
   border-top: 1px solid;
+
+  border-top: 1px solid black;
+
   text-align: right;
 }
 
@@ -32,10 +72,21 @@ tr.coinHead > th:nth-child(8) {
   width: 150px;
 }
 
+
 tr.coin > td {
   width: 100px;
   height: 55px;
   border-bottom: 1px solid;
+
+tr.coinHead > th:nth-child(9) {
+  width: 150px;
+}
+
+tr.coin > td {
+  width: 100px;
+  height: 55px;
+  border-bottom: 1px solid black;
+
   text-align: right;
   font-size: 14px;
 }
@@ -49,6 +100,7 @@ tr.coin > td:nth-child(2) {
 .coin:hover {
   background-color: rgba(211, 211, 211, 0.185);
 }
+
 
 .c1 {
   padding-right: 10px;
@@ -115,3 +167,6 @@ tr.coin > td:nth-child(2) {
   color: #000000;
   background-color: #fffefe;
 }
+
+/* --------------teddy---------------- */
+
