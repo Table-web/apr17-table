@@ -66,6 +66,7 @@ tr.coin > td:nth-child(2) {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  padding-left: 80px;
 }
 .language-select input {
   display: none;
