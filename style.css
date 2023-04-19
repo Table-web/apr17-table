@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -31,3 +32,62 @@ p {
 .container .box .content {
   position: absolute;
 }
+=======
+/* --------------teddy---------------- */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.bottom {
+  width: 1300px;
+  margin: auto;
+}
+
+.coinStat {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.coinHead {
+  height: 40px;
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+tr.coinHead > th:nth-child(1) {
+  text-align: center;
+}
+
+tr.coinHead > th:nth-child(2) {
+  text-align: left;
+}
+
+tr.coinHead > th:nth-child(7),
+tr.coinHead > th:nth-child(8) {
+  width: 150px;
+}
+
+tr.coinHead > th:nth-child(9) {
+  width: 150px;
+}
+
+tr.coin > td {
+  width: 100px;
+  height: 55px;
+  border-bottom: 1px solid black;
+  text-align: right;
+  font-size: 14px;
+}
+
+tr.coin > td:nth-child(1) {
+  text-align: center;
+}
+tr.coin > td:nth-child(2) {
+  text-align: left;
+}
+.coin:hover {
+  background-color: rgba(211, 211, 211, 0.185);
+}
+/* --------------teddy---------------- */
+>>>>>>> 797d6df526947e468c29c00a9fc63dc3cd0dba4f
